@@ -20,7 +20,7 @@ public class TestAnonymous{
 			{
 				@Override
 				public int compute(int x, int y) {
-					return x-y;
+					return x+y;
 				}
 			};
 	System.out.println("Addition : "+obj.compute(10, 20));
